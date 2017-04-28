@@ -107,3 +107,7 @@ footer span.copyright,footer ul.quicklinks{font-family:Montserrat,"Helvetica Neu
 .portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
 .portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}
 
+.skills{text-align:center;margin-bottom:50px}
+.skills img{margin:0 auto;border:7px solid #fff}
+.skills h4{margin-top:25px;margin-bottom:0;text-transform:none}
+.skills p{margin-top:0}
