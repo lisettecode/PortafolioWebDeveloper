@@ -1,3 +1,4 @@
+/*----------------SECCIÓN HEADER Y NAVEGACIÓN-------------------*/
 .btn-primary.active,.btn-primary:active,.btn-xl.active,.btn-xl:active,.open .dropdown-toggle.btn-primary,.open .dropdown-toggle.btn-xl{background-image:none}
 body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;webkit-tap-highlight-color:#fed136}
 .btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
@@ -35,12 +36,13 @@ a.active,a:active,a:focus,a:hover{color:#fec503}
 .navbar-custom .navbar-nav>.active>a{border-radius:3px}
 .navbar-custom.affix{background-color:#222;padding:10px 0}.navbar-custom.affix .navbar-brand{font-size:1.5em}}
 
-header{background-image:url(../img/header.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;text-align:center;color:#fff}
+header{background-image:url(../img/header2.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;text-align:center;color:#fff}
 header .intro-text{padding-top:100px;padding-bottom:50px}
 header .intro-text .intro-lead-in{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:22px;line-height:22px;margin-bottom:25px}
 header .intro-text .intro-heading{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:50px;line-height:50px;margin-bottom:25px}
 @media (min-width:768px){header .intro-text{padding-top:300px;padding-bottom:200px}header .intro-text .intro-lead-in{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:40px;line-height:40px;margin-bottom:25px} header .intro-text .intro-heading{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:75px;line-height:75px;margin-bottom:50px}}
 
+/*--------------SECCIÓN ACERCA DE MÍ---------------------*/
 .timeline{list-style:none;padding:0;position:relative}
 .timeline:before{top:0;bottom:0;position:absolute;content:"";width:2px;background-color:#f1f1f1;left:40px;margin-left:-1.5px}
 .timeline>li{margin-bottom:50px;position:relative;min-height:50px}
@@ -74,6 +76,7 @@ header .intro-text .intro-heading{font-family:Montserrat,"Helvetica Neue",Helvet
 .timeline>li.timeline-inverted>
 .timeline-panel{padding:0 100px 20px 20px}}
 
+/*--------------SECCIÓN PROYECTOS---------------------*/
 #portfolio .portfolio-item .portfolio-caption p,section h3.section-subheading{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic}
 section{padding:100px 0}
 section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
@@ -107,7 +110,21 @@ footer span.copyright,footer ul.quicklinks{font-family:Montserrat,"Helvetica Neu
 .portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
 .portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}
 
+/*-------------SECCIÓN HABILIDADES----------------------*/
 .skills{text-align:center;margin-bottom:50px}
 .skills img{margin:0 auto;border:7px solid #fff}
 .skills h4{margin-top:25px;margin-bottom:0;text-transform:none}
 .skills p{margin-top:0}
+
+/*--------------SECCIÓN CONTÁCTAME---------------------*/
+.banner {padding: 100px 0;color: #f8f8f8;background: url(../img/banner-bg.jpg) no-repeat center center;background-size: cover}
+.banner h2 {margin: 0;text-shadow: 2px 2px 3px rgba(0,0,0,0.6);font-size: 3em}
+.banner ul {margin-bottom: 0}
+.banner-social-buttons {float: right;margin-top: 0}
+@media(max-width:1199px) {ul.banner-social-buttons {float: left;margin-top: 30px}}
+@media(max-width:767px) {.banner h2 {margin: 0;text-shadow: 2px 2px 3px rgba(0,0,0,0.6);font-size: 3em}
+ul.banner-social-buttons > li {display: block;margin-bottom: 20px;padding: 0}
+ul.banner-social-buttons > li:last-child {margin-bottom: 0}}
+
+/*-------------------SECCIÓN FOOTER----------------*/
+footer {padding: 50px 0;background-color: #f8f8f8}
